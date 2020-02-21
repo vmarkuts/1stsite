@@ -1,19 +1,25 @@
 {
   "name": "1stsite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "learn html/css",
+  "main": "www/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "hello"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vmarkuts/1stsite.git"
   },
-  "author": "",
+  "keywords": [
+    "kek"
+  ],
+  "author": "vmarkuts",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vmarkuts/1stsite/issues"
   },
-  "homepage": "https://github.com/vmarkuts/1stsite#readme"
+  "homepage": "https://github.com/vmarkuts/1stsite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
