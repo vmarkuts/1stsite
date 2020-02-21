@@ -2,7 +2,7 @@
   "name": "1stsite",
   "version": "0.0.1",
   "description": "learn html/css",
-  "main": "www/index.html",
+  "main": "public/index.html",
   "scripts": {
     "test": "hello"
   },
