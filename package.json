@@ -1,0 +1,28 @@
+{
+  "name": "1stsite",
+  "version": "1.0.1",
+  "description": "learning",
+  "main": "index.html",
+  "scripts": {
+    "test": "?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmarkuts/1stsite.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "vmarkuts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vmarkuts/1stsite/issues"
+  },
+  "homepage": "https://github.com/vmarkuts/1stsite#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+      "dev": "lite-server"
+    }
+}
