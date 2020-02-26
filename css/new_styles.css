@@ -1,0 +1,79 @@
+a {
+  text-decoration: none;
+  /* border: 1px ridge blue; */
+}
+
+.container {
+  /* border: 3px solid black; */
+}
+
+.logo {
+  font-style: "Comic Sans"
+}
+
+.article-item {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  min-height: 450px;
+  margin-bottom: 1.5em;
+}
+
+.article-item .img-fluid {
+  border-radius: 5px 5px 0px 0px;
+  height: 200px;
+  width:auto;
+}
+
+.image-bunny-3 {
+  border-radius: 5px 5px 0px 0px;
+  height: 250px;
+  width: inherit;
+  background-image: url("https://www.elsetge.cat/myimg/f/201-2010057_white-bunny-hd-wallpaper-cute-rabbit-hd-pics.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-bunny-2 {
+  border-radius: 5px 5px 0px 0px;
+  height: 250px;
+  width: inherit;
+  background-image: url("https://ak0.picdn.net/shutterstock/videos/17565010/thumb/1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.image-bunny-1 {
+  border-radius: 5px 5px 0px 0px;
+  height: 250px;
+  width: inherit;
+  background-image: url("https://i.pinimg.com/originals/c4/38/84/c43884d2801dfaa23835d0c6a82428a5.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.article-item-content {
+  margin: 20px;
+}
+
+.article-item-content a {
+  padding: 7px 12px;
+  background-color: coral;
+  border-radius: 5px;
+  color: white;
+}
+
+.footer-img {
+  width: 30px;
+  margin: 1em;
+  height: auto;
+}
+
+.row {
+  /* border: 2px solid red; */
+}
+
+.jumbotron {
+  background-color: white;
+  box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 0.1);
+  padding: 1em;
+}

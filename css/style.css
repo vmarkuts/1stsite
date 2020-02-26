@@ -18,7 +18,7 @@ body {
   line-height: 135%;
 }
 
-a {
+.a-custom {
   color: #333;
   text-decoration: none;
   /* transition: all.6s ease;
@@ -27,7 +27,7 @@ a {
   -ms-transition: all.6s ease; */
 }
 
-a:hover {
+.a-custom:hover {
   color: #8b9ff5;
   text-decoration: none;
 }
@@ -44,11 +44,11 @@ hr {
   padding: 0;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
   width: auto\9;
-}
+} */
 
 .right {float: right;}
 .left {float:left;}
@@ -59,13 +59,13 @@ img {
 ::selection {background: #f58b8b; color: #fff;}
 ::-moz-selection {background: #f58b8b; color: #fff}
 
-header, footer {
+.header-custom, .footer-custom {
   float: left;
   width: 98%;
   background-color: #fff;
 }
 
-header {
+.header-custom {
   /* border-bottom: 2px solid silver; */
   padding: 1%;
   position: fixed;
@@ -73,7 +73,7 @@ header {
   max-height: 70px;
 }
 
-header a {
+.header-custom a {
   font-size: 0.8em;
   color:
 }
@@ -131,18 +131,18 @@ input[type=text].field:focus {
 /* Main Styles */
 
 
-.wrapper {
+.wrapper-custom {
   float: left;
   width: 100%;
   margin-top: 2%
 }
-.wrapper .articles {
+.wrapper-custom .articles {
   float: left;
   width: 80%;
   margin-left: 10%;
 }
 
-.wrapper .articles article {
+.wrapper-custom .articles article {
   float: left;
   box-sizing: border-box;
   border-radius: 2%;
@@ -155,14 +155,14 @@ input[type=text].field:focus {
 }
 
 @media (min-width: 1050px) {
-  .wrapper .articles article {
+  .wrapper-custom .articles article {
     width: 30.3333%;
     margin-right: 2%;
   }
 }
 
 @media (max-width: 1049px) and (min-width: 700px) {
-  .wrapper .articles article {
+  .wrapper-custom .articles article {
     width: 45%;
     margin-right: 5%;
     margin-bottom: 2em;
@@ -170,12 +170,12 @@ input[type=text].field:focus {
 }
 
 @media (max-width: 699px) {
-  .wrapper .articles article {
+  .wrapper-custom .articles article {
     width: 100%;
   }
 }
 
-.wrapper .articles article img {
+.wrapper-custom .articles article img {
   display: block;
   height: 200px;
   max-width: 100%;
@@ -184,7 +184,7 @@ input[type=text].field:focus {
   margin-right: auto;
 }
 
-.wrapper .articles article h2 {
+.wrapper-custom .articles article h2 {
   width: 90%;
   margin-left: 5%;
   font-weight: normal;
@@ -193,7 +193,7 @@ input[type=text].field:focus {
   margin-top: 1%;
 }
 
-.wrapper .articles article p {
+.wrapper-custom .articles article p {
   width: 90%;
   margin-left: 5%;
   margin-top: 1%;
@@ -201,7 +201,7 @@ input[type=text].field:focus {
 }
 
 
-.wrapper .articles article a {
+.wrapper-custom .articles article a {
   padding: 2px 10px 2px 10px;
   background-color: #e06363;
   margin-left: 5%;
@@ -212,7 +212,7 @@ input[type=text].field:focus {
   font-size: 0.8em;
 }
 
-.wrapper .articles article a:hover {
+.wrapper-custom .articles article a:hover {
   background-color: #c15050;
 }
 
