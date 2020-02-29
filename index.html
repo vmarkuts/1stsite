@@ -11,38 +11,40 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/new_styles.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   <link rel="shortcut icon" href="img/favicon.ico">
-  <title>BG: Home !_!</title>
+  <title>BG: Home</title>
 </head>
 <body>
   <div class="protection">
     <div class="container">
       <div class="row">
         <div class="col-auto">
-          <h1>Screen size is not supported, go away please</p>
+          <h1>Screen size is not supported</p>
             <p class="slideRight">:)</p>
           </div>
         </div>
-
       </div>
     </div>
-    <header class="jumbotron">
-      <div class="row d-flex justify-content-between">
-        <div class="col-md-2">
-          <a class="logo" href="index.html" title="Main">BunnyGroup</a>
-        </div>
-        <div class="d-none d-md-block col-md-auto">
-          <a class="header-button-active" href="index.html">Home</a>
-          <a class="header-button" href="about.html">About</a>
-          <a class="header-button" href="feedback.html">Contact Us</a>
-          <a class="header-button" href="auth.html">Login</a>
-          <a class="header-button-signup" href="reg.html">Sign Up</a>
-        </div>
-        <div class="d-block d-sm-none">
 
+    <nav class="navbar header navbar-expand-sm fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="logo" href="index.html" title="Main">BunnyGroup</a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="header-button-active" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="header-button" href="./about.html">About</a></li>
+            <li class="nav-item"><a class="header-button" href="./feedback.html">Contact Us</a></li>
+            <li class="nav-item"><a class="header-button" href="./auth.html">Login</a></li>
+            <li class="nav-item"><a class="header-button-signup" href="./reg.html">Sing Up</a></li>
+          </ul>
         </div>
       </div>
-    </header>
+    </nav>
+
     <div class="wrapper">
       <div class="container">
         <div class="row">
@@ -70,7 +72,7 @@
             <div class="article-item">
               <div class="image-bunny-3"></div>
               <div class="article-item-content">
-                <h2>Two Bunnies</h2>
+                <h2>Third World Bunny</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eros leo, efficitur in convallis vel, laoreet a enim. Integer vel felis in libero feugiat pulvinar. Donec vel vehicula metus. </p>
                 <a href="article.html">Read more</a>
               </div>
@@ -110,8 +112,9 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-auto">
-            <img class="footer-img" src="https://facebookbrand.com/wp-content/uploads/2019/10/flogo_RGB_HEX-BRC-Site-250.png?w=125&h=125" alt="fb">
-            <img class="footer-img" src="https://en.instagram-brand.com/wp-content/themes/ig-branding/prj-ig-branding/assets/images/ig-logo-black.svg" alt="inst">
+            <a href="http://www.facebook.com/vlad.markuts"><i class="fab fa-facebook-square"></i></a>
+            <a href="http://www.instagram.com/vlad.markuts"><i class="fab fa-instagram-square"></i></a>
+            <a href="http://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -121,5 +124,10 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
   </body>
   </html>

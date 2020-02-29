@@ -4,7 +4,7 @@
   "description": "learning",
   "main": "index.html",
   "scripts": {
-    "test": "?"
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
-  "scripts": {
-      "dev": "lite-server"
-    }
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1"
+  }
 }
