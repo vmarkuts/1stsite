@@ -116,23 +116,19 @@
     color: coral;
   }
 
-.navbar-toggler-icon {
-  background-color: white;
-}
+  .navbar-toggler-icon {
+    background-color: white;
+  }
 
-@media screen and (max-width: 575px) {
+  @media screen and (max-width: 575px) {
     .nav-item {
       margin-top: 10px;
       margin-bottom: 20px;
     }
-}
+  }
 
   a, a:hover {
     text-decoration: none;
-  }
-
-  .checking {
-    border: 1px solid black;
   }
 
   .logo {
@@ -273,11 +269,11 @@
     height: auto;
   }
 
-.footer i {
-  color: coral;
-  font-size: 2em;
-  margin: 0.5em 0.5em 0.5em 0.5em;
-}
+  .footer i {
+    color: coral;
+    font-size: 2em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+  }
 
   .jumbotron {
     background-color: white;
