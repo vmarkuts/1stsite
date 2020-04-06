@@ -4,7 +4,8 @@
   "description": "learning",
   "main": "index.html",
   "scripts": {
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,9 @@
   },
   "homepage": "https://github.com/vmarkuts/1stsite#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1"
